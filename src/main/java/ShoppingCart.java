@@ -14,6 +14,9 @@ public class ShoppingCart {
         cart.remove(i);
         totalValue -= i.getValue()*i.getQuantity();
     }
+    public List<Item> getItems(){
+        return cart;
+    }
 
     public double getTotalValue() {
         return totalValue;
