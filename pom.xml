@@ -56,6 +56,7 @@
                 </executions>
                 <configuration>
                     <excludes>
+                        <exclude>**/Main.class</exclude>
                         <exclude>sun/util/resources/**</exclude>
                         <exclude>sun/text/resources/**</exclude>
                         <exclude>sun/util/cldr/**</exclude>
