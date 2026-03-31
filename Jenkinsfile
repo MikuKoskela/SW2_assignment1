@@ -7,9 +7,6 @@ pipeline {
         git 'GIT-HOME'
     }
 
-    environment {
-    }
-
     stages {
 
         stage('Checkout') {
